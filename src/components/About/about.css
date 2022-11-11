@@ -1,0 +1,36 @@
+.about {
+    background-color: #1abc9c !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 0;
+} 
+.text-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.text-p p {
+    width: 400px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold !important;
+}
+.text-about h1 {
+    font-size: 50px !important;
+    color: white;
+    font-weight: bold !important;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+@media(max-width: 767px){
+    .text-p {
+        display: flex !important;
+        flex-direction: column !important;
+        color: black;
+    }
+    .text-p p {
+        width: 100%;
+    }
+}
